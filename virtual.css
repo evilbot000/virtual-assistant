@@ -1,0 +1,70 @@
+/* Reset some default styles */
+body, h1, h2, h3, h4, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+/* Style the header */
+h1 {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Style headings */
+h2 {
+    font-size: 28px;
+    color: #333;
+    margin: 20px 0;
+}
+
+h3 {
+    font-size: 20px;
+    color: #333;
+    margin: 10px 0;
+}
+
+h4 {
+    font-size: 18px;
+    color: #555;
+    margin: 10px 0;
+}
+
+/* Style main content */
+section {
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+/* Style image containers */
+section img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px 0;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Add hover effect to images */
+section img:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+/* Add hover effect to links */
+a {
+    color: #007BFF;
+    transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+    color: #0056b3;
+}
